@@ -1,0 +1,15 @@
+{
+  "name": "nw_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nightwatch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^74.0.0",
+    "nightwatch": "^1.1.11"
+  }
+}
