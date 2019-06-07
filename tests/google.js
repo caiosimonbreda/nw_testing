@@ -8,16 +8,6 @@ module.exports = {
 
     const page = browser.page.googleAdvancedSearch();
 
-    //search language
-    const languageDropdownOpenerSelector = '#lr_button';
-    const languageDropdownValueSelector = '.goog-menuitem[value="lang_it"]';
-
-    //time window selection
-    const lastUpdateDropdownOpenerSelector = '#as_qdr_button';
-    const lastUpdateDropdownValue = '.goog-menuitem[value="m"]';
-
-    const submitButtonSelector = '.jfk-button[type="submit"]';
-
     const resultsPageQuerySelector = `#searchform input[name="q"][value="${mainQuery}"]`;
     const resultsPageLanguageSelector = '[aria-label = "Search Italian pages"]';
     const resultsPagelastUpdateSelector = '[aria-label = "Past month"]';

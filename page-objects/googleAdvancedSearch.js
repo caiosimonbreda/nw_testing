@@ -22,5 +22,5 @@ module.exports = {
       return this
         .click('@submitButton');
     }
-  }],
-}
+  }]
+};
